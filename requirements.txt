@@ -4,3 +4,4 @@ pandas
 scikit-learn
 streamlit_drawable_canvas
 sympy
+skimage.transform
