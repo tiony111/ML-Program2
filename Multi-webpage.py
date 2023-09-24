@@ -19,7 +19,7 @@ data_url_2 = get_image_html("分類[A(a)~Z(z)辨識]", "./English Alphabet.jpg")
 data_url_3 = get_image_html("解聯立方程式", "./Solve equations.jpg")
 
 st.set_page_config(
-    page_title="個人學習歷程",
+    page_title="個人作業演練",
     page_icon=":footprints:",
 )
 
@@ -33,7 +33,7 @@ for percent_complete in range(100):
 
 my_bar.empty()
 
-st.title('Machine Learning 學習歷程')  
+st.title('Machine Learning 學習展示')  
 
 tab1, tab2, tab3 = st.tabs([":blue[手寫數字(0~9)]", ":green[手寫英文字母(A~Z)]", ":orange[解聯立方程式]"])
 
@@ -86,7 +86,7 @@ with tab2:
         ''')
 
 with tab3:
-    st.markdown('### [(解聯立方程式)輸入方程式](解聯立方程式])')
+    st.markdown('### [(解聯立方程式)輸入方程式](解聯立方程式)')
     st.markdown(data_url_3, unsafe_allow_html=True)
     st.markdown('''
     ##### 使用方法:
