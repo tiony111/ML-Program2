@@ -59,7 +59,7 @@ css = '''
 
 st.markdown(css, unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+# col1, col2, col3 = st.columns(3)
 
 with tab1:
     # url must be external url instead of local file
